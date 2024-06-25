@@ -1,0 +1,12 @@
+com\Mohs10\OR\HomePage.class
+com\Mohs10\TestScripts\ValidateTitleAndLogo.class
+com\Mohs10\Dashboard\TablesTest.class
+com\Mohs10\Functions\CommonFuns.class
+com\Mohs10\Reports\New_PDF_Report.class
+com\Mohs10\TestScripts\Hompeage_Register_Test.class
+com\Mohs10\TestScripts\LoginandOrderitem.class
+com\Mohs10\Reports\PDFReportTest.class
+com\Mohs10\TestScripts\Sample_TC_forbrowsername.class
+com\Mohs10\Reports\CustomizedEmailableReport.class
+com\Mohs10\TestScripts\HomePage_Login.class
+com\Mohs10\TestScripts\SearchResultPageTest.class

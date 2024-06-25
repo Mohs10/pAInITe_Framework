@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"> 
+
+ 	<listeners> 
+		 <listener class-name="com.Mohs10.utility.ListenerClass" /> 
+		 <listener class-name="com.Mohs10.utility.TestallureListener" />
+		 <listener class-name="com.Mohs10.JiraUtil.TestJiraListeners" /> 
+	 </listeners> 
+
+
+	<!--   The sequence of browser name in xml file should be chrome, firefox and
+	Edge-->
+
+	<test name="TestNG_Report1">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.Mohs10.TestScripts.MamatvaProd_Scripts" /> 
+			<class name="com.Mohs10.Reports.New_PDF_Report" />
+		</classes>
+	</test>
+	
+ 	<test name="TestNG_Report2">
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.Mohs10.TestScripts.MamatvaProd_Scripts" />
+			<class name="com.Mohs10.Reports.New_PDF_Report" /> 
+		</classes>
+	</test>
+	
+	
+	<test name="TestNG_Report3">
+		<parameter name="browser" value="edge" />
+
+		<classes>
+			<class name="com.Mohs10.TestScripts.MamatvaProd_Scripts" /> 
+			<class name="com.Mohs10.Reports.New_PDF_Report" />
+		</classes>
+	</test> 
+	
+	
+	
+	
+	
+	
+</suite>
